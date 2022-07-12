@@ -1,170 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,700&display=swap');
 
 * {
-    font-family: 'Roboto', sans-serif;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body,
 html {
-    background-color: #000000;
-    color: #ffffff;
+  background-color: #000000;
+  color: #ffffff;
 }
 
 a,
 a:hover,
 a:visited {
-    color: unset;
-    text-decoration: none;
+  color: unset;
+  text-decoration: none;
 
 }
 
-header {
-    background: linear-gradient(180deg, #102347 0%, #181818 100%);
-    height: 220px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.dguinter-logo-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.dguinter-logo-container img {
-    width: 235px;
-}
-
-.dguinter-logo-container h1 {
-    margin-top: 15px;
-    font-size: 24px;
-}
-
-.dguinter-logo-container p {
-    font-size: 14px;
-    font-weight: 300px;
-}
-
-.dguinter-card {
-    background-color: #283142;
-    border-radius: 10px;
-    padding: 30px 10px;
-}
-
-.dguinter-container {
-    width: 100%;
-    max-width: 900px;
-    margin: 0 auto;
+.dsmeta-container {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 #sales {
-    padding: 40px 10px;
+  padding: 40px 10px;
 }
-
-.dguinter-sales-title {
-    color: #676FFF;
-    font-size: 24px;
-    margin-bottom: 20px;
-}
-
-.dguinter-form-control-container {
-    margin-bottom: 16px;
-    max-width: 300px;
-}
-
-.dguinter-form-control {
-    width: 100%;
-    height: 46px;
-    background-color: #1B2531;
-    border: 1px solid #384459;
-    border-radius: 5px;
-    color: #9AAABE;
-    padding: 0 20px;
-    font-size: 18px;
-}
-
-.dguinter-sales-table {
-    width: 100%;
-    border-spacing: 0;
-    border-collapse: collapse;
-}
-
-.dguinter-sales-table thead {
-    height: 55px;
-    font-size: 16px;
-    color: #E9E9E9;
-    font-weight: 700;
-}
-
-.dguinter-sales-table tbody {
-    font-size: 14px;
-    font-weight: 400px;
-    color: #CFCFCF;
-    text-align: center;
-}
-
-.dguinter-sales-table tbody tr {
-    height: 74px;
-    border-top: 1px solid #5F6E82;
-}
-
-.dguinter-sales-table tbody tr:hover>td{
-    background-color: #384459;
-}
-
-.dguinter-sales-table tbody tr:nth-child(odd) {
-    background-color: #242C3B;
-}
-.dguinter-red-btn-container{
-    display: flex;
-    justify-content: center;
-}
-
-    .dguinter-red-btn{
-        height: 45px;
-        width: 45px;
-        background: rgba(255, 107, 114, 0.1);
-        border: 1px #FF6B72;
-        border-radius: 10px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        cursor: pointer;
-    }
-
-    .dguinter-red-btn img{
-        width: 19px;
-    }
-
-    .show576{
-        display: none;
-    }
-
-    @media  (min-width: 576px){
-        .show576{
-            display: table-cell;
-        }
-        .dguinter-card{
-            padding: 35px;
-        }
-        .dguinter-sales-table tbody tr{
-            height: 55px;
-        }
-        .dguinter-sales-table tbody{
-            font-size: 18px;
-        }
-    }
-
-    .show992{
-        display: none;
-    }
-
-    @media  (min-width: 992px){
-        .show992{
-            display: table-cell;
-        }
-    }
